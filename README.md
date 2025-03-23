@@ -23,11 +23,16 @@ The sentiment analysis process involves several key steps, including data prepro
 ## 📈 Results
 As you can see in the [notebook](Minecraft_Sentiment_Analysis.ipynb), the sentiment classification models were evaluated using different methodologies and achieved the following accuracy scores:
 
-1. Experiment 1 (LR + 90-10): 89.38%
-2. Experiment 2 (LSTM + 80-20): 91.73%
-3. Experiment 3 (Bi-LSTM + 70-30): 91.97%
+1. Experiment 1 (Logistic Regression + 90-10): 87.23%
+2. Experiment 1 (Decision Tree + 90-10): 82.31%
+3. Experiment 1 (Random Forest + 90-10): 80.18%
+4. Experiment 1 (Naive Bayes + 90-10): 64.44%
+5. Experiment 1 (K-Nearest Neighbors + 90-10): 47.23%
+6. Experiment 2 (Bi-LSTM + 80-20): 91.34%
+7. Experiment 2 (LSTM + 80-20): 91.03%
+8. Experiment 3 (CNN + 70-30): 90.06%
 
-These results demonstrate the effectiveness of the models in accurately classifying the sentiment of Minecraft game reviews. **The highest accuracy was achieved by Experiment 3, which utilized a Bi-LSTM model with a 70-30 train-test split**.
+These results demonstrate the effectiveness of the models in accurately classifying the sentiment of Minecraft game reviews. **The highest accuracy was achieved by Experiment 2, which utilized a Bi-LSTM model with a 80-20 train-test split**.
 
 ## 🚀 Streamlit Web App
 
