@@ -1,1 +1,8 @@
-Model/
+Model/cnn_model.keras
+Model/dt_model.pkl
+Model/knn_model.pkl
+Model/lr_model.pkl
+Model/lstm_model.keras
+Model/nb_model.pkl
+Model/preprocessing_functions.pkl
+Model/rf_model.pkl
